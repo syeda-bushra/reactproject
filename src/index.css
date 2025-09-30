@@ -11,7 +11,6 @@
 
 }
 
-
 .page-content {
   flex: 1; 
   
@@ -121,9 +120,7 @@
   align-items: center;        
 }
 
-.navbar a.active  {
-  color: #090909;
-}
+
 
 .image-heading {
   position:relative;
@@ -147,11 +144,12 @@
   padding: 20px 0;
   text-align: center;
   width: 100%;
-  margin-top: 2100px;
+  position:absolute;
   font-size: 12px;
   height: 280px;
   position: static;
   box-sizing: border-box;
+  bottom:0;
   
   
 }
@@ -304,6 +302,7 @@
   gap: 50px; 
   margin: auto;
   max-width: 1300px;
+  
 }
 
 .box {
@@ -314,7 +313,7 @@
   font-family: Arial, sans-serif;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   border-radius: 0px;
-  position: relative;
+  position: static;
   height: 260px;
   margin: -20px;
 }
