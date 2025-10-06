@@ -43,7 +43,7 @@ const Contact = () => {
               Let's Plan Your Next <br /> Adventure!
             </h1>
 
-            <p className="text-white  text-shadow-lg/20 text-sm mt-6 drop-shadow-lg tracking-wide leading-6 font-light">
+            <p className="text-white  text-shadow-lg/1 text-sm mt-6 drop-shadow-lg tracking-wide leading-6 font-light">
               Have a question or need help planning your next trip? Our team is here <br />
               to guide you with recommendations, bookings, and travel tips. <br />
               Reach out and let’s start your journey together.
@@ -96,11 +96,11 @@ const Contact = () => {
                   />
                   </div>
                   <div className="flex flex-col space-y-4">
-                    <p className="text-sm text-gray-700 font-medium pl-2">Days</p>
+                    <p className="text-sm text-gray-700 font-medium pl-2">Duration</p>
                     <input
                       type="number"
                       name="duration"
-                      placeholder="Duration"
+                      placeholder="Any length"
                       value={formData.duration}
                       onChange={handleChange}
                       className="bg-white text-black rounded-3xl p-2 placeholder-gray-500
