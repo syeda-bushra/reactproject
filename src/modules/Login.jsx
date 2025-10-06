@@ -60,7 +60,7 @@ const Login = () => {
     setFormData({name:"",email:"",password:""});
   };
   return (
-    <div className='login-container'>
+    <div className='bg-[#4358e1]'>
         <h2>Login Form</h2>
         <form onSubmit={handleSubmit} id = "loginForm">
             <input

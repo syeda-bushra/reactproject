@@ -35,26 +35,23 @@ const Contact = () => {
   return (
     <div>
       <Dashboard userName={userName}>
-        <div className="flex items-center justify-content h-screen bg-center bg-cover max-w-full mx-auto overflow-x-hidden
-        bg-[url('/background.png')] "
-        >
+        <div className="flex items-center justify-content h-screen bg-center bg-cover mx-auto overflow-x-hidden
+        bg-[url('/background.png')]">
           <div className=" justify-content ml-16">
             <h1 className="text-7xl text-white text-shadow-lg/20 whitespace-nowrap  font-[Open-Sans] " >
-              Let's Plan Your Next <br /> Adventure!
+              Let's Plan Your Next <br/> Adventure!
             </h1>
-
+            
             <p className="text-white  text-shadow-lg/1 text-sm mt-6 drop-shadow-lg tracking-wide leading-6 font-light">
               Have a question or need help planning your next trip? Our team is here <br />
               to guide you with recommendations, bookings, and travel tips. <br />
-              Reach out and let’s start your journey together.
+              Reach out and let's start your journey together.
             </p>
 
             <button className="mt-8 px-6 py-3 text-white font-semibold border-2 border-white rounded-md ">
               Learn More
             </button>
           </div>
-  
-
     <div className="flex items-center justify-content px-48 mr-16 ">
       <div className="w-full bg-gray-200 rounded-xl shadow-md py-16 px-12 ml-16 mb-8">
         <h2 className="text-[22px] font-bold text-black mb-8 text-left">

@@ -11,7 +11,6 @@ const Navbar = ({ userName = "Guest" }) => {
         <img src="/logo2.png" alt="FlyAway Logo" className="h-[120px] w-[150px]" />
       </div>
      
-     
     <div className="hidden-x-overflow pl-10">
       <ul className="flex items-center gap-6 text-white ">
         {NavbarMenu.map((item) => (
@@ -19,7 +18,7 @@ const Navbar = ({ userName = "Guest" }) => {
               <NavLink
                 to={item.link}
                 className={({ isActive }) =>
-                  `inline-block py-1 px-3 font-semibold hover:text-black ${
+                  `py-1 px-3 font-semibold hover:text-black ${
                     isActive ? 'text-black' : 'text-white'
                   }`
                 }
